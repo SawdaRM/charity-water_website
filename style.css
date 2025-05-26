@@ -5,8 +5,9 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', 'Avenir', 'Georgia', sans-serif;
   color: white;
+  background-color: #000; /* Fallback in case background image fails */
 }
 
 /* Header */
@@ -25,16 +26,18 @@ body {
   gap: 10px;
   font-weight: bold;
   font-size: 1.2em;
+  padding-top: 1px;
 }
 
-.free-trial {
-  background-color: #ffa726;
+.donate-button {
+  background-color: #FFC907;
   color: white;
   border: none;
   padding: 10px 15px;
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
+  font-family: 'Montserrat', 'Avenir', sans-serif;
 }
 
 /* Hero Section */
@@ -65,11 +68,13 @@ body {
   font-size: 3em;
   font-weight: bold;
   margin-bottom: 20px;
+  font-family: 'Montserrat', 'Avenir', sans-serif;
 }
 
 .hero-content p {
   font-size: 1.1em;
   margin-bottom: 30px;
+  font-family: 'Georgia', serif;
 }
 
 .subscribe-form {
@@ -84,14 +89,16 @@ body {
   border: none;
   border-radius: 5px;
   font-size: 1em;
+  font-family: 'Georgia', serif;
 }
 
 .subscribe-form button {
-  background-color: #ffa726;
+  background-color: #FFC907;
   color: white;
   border: none;
   padding: 10px 20px;
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
+  font-family: 'Montserrat', 'Avenir', sans-serif;
 }
